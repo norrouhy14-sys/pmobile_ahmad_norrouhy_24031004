@@ -1,7 +1,7 @@
 void main () {
-  String name = "Ahmad Norrouhy";
-  int age = 21;
+  String nama = "Ahmad Norrouhy";
+  int umur = 21;
 
-  print(name);
-  print(age);
+  print('Nama: $nama');
+  print('Umur: $umur');
 }

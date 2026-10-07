@@ -1,8 +1,8 @@
 void main () {
-  var name = 'John';
-  var age = 30;
-  var isStudent = true;
-  print('Name: $name');
-  print('Age: $age');
-  print('Is Student: $isStudent');
+  var nama = 'Rouhy';
+  var umur = 21;
+  var Mahasiswa = true;
+  print('Nama: $nama');
+  print('Umur: $umur');
+  print('Mahasiswa: $Mahasiswa');
 }
