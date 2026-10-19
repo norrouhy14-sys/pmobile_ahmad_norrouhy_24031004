@@ -4,8 +4,4 @@ void main() {
   print(listAngka); 
   // Output: [10, 20, 30, 40, 50]
 
-  // Membuat list of String dengan nilai awal
-  var listBuah = <String>['Apel', 'Jeruk', 'Mangga'];
-  print(listBuah); 
-  // Output: [Apel, Jeruk, Mangga]
 }
