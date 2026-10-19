@@ -8,4 +8,11 @@ void main () {
 
   var stringfromint = inputint.toString();
   var stringfromdouble = inputdouble.toString();
+
+  print(inputint);
+  print(inputdouble);
+  print(doubleToString);
+  print(intformdouble);
+  print(stringfromint);
+  print(stringfromdouble);
 }
