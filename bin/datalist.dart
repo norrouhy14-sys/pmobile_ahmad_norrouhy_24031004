@@ -1,8 +1,7 @@
 void main() {
-  var nama = <String>['A', 'B', 'C'];
-  nama.add('D');
-  nama.add('E');
-
-  print(nama); // Output: [A, B, C, D, E]
-  print(nama.length); // Output: 5
+  var names = <String>['A', 'B', 'C'];
+  print(names[0]); // Output: A
+  names[0] = 'a';
+  names.removeAt(2);
+  print(names); // Output: [a, C]
 }
