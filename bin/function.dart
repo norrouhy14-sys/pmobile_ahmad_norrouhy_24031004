@@ -1,10 +1,9 @@
-void main(){
-  void sayhello(){
+ void sayhello(){
     print('hello world');
     
+ }
   void main(){
   sayhello();
   sayhello();
   }
-}
-}
+

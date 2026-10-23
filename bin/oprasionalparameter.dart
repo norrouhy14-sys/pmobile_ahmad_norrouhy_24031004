@@ -1,5 +1,4 @@
-void main(){
-  void sayhello(String firstname, [String? lastname]){
+void sayhello(String firstname, [String? lastname]){
     print('hello $firstname $lastname');
   }
     void main(){
@@ -7,4 +6,3 @@ void main(){
       sayhello('sabran');
 
     }
-  }
