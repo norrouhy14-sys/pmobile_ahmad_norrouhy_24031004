@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main() {
   var names = <String>['A', 'B', 'C'];
   print (names[0]); // Output: A
