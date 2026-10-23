@@ -1,3 +1,4 @@
+
 String Filterbadword(String contoh){
   if (contoh == 'gila'){
     return '****';
@@ -5,9 +6,13 @@ String Filterbadword(String contoh){
     return contoh;
   }
 }
+void sayhello(String contoh, String Function(String) filter) {
+  var filteredName = filter(contoh);
+  print('Hello $filteredName');
+}
 void main(){
-  sayHello ('uluh',Filterbadword);
-  sayHello('gila', Filterbadword);
+  sayhello('uluh',Filterbadword);
+  sayhello('gila', Filterbadword);
 }
 
 
