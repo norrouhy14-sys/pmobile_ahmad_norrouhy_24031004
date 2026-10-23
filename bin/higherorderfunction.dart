@@ -7,7 +7,7 @@ String Filterbadword(String contoh){
 }
 void main(){
   sayHello ('uluh',Filterbadword);
-  sayhello('gila', Filterbadword);
+  sayHello('gila', Filterbadword);
 }
 
 
